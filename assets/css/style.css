@@ -1,0 +1,33 @@
+body {
+    background-image: url("https://st2.depositphotos.com/1000641/11422/v/950/depositphotos_114228434-stock-illustration-abstract-crystal-background.jpg");
+}
+.heading {
+    color: white;
+    background-color: orange;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+.instruction-box {
+    color: green;
+    background-color: tan;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.random-number {
+    color: purple;
+    font-size: 30px;
+    background-color: rgb(78, 161, 78);
+    margin-top: 10px;
+    margin-left: 15px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+}
+.wins-losses {
+    color: green;
+    background-color: lightblue;
+    margin-left: 10px;
+    margin-top: 10px;
+}
