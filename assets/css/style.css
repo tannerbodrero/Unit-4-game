@@ -3,53 +3,45 @@ body {
 }
 .heading {
     color: white;
-    background-color: orange;
     font-size: 35px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-color: orange;
+    padding: 20px 0px;
     margin-top: 10px;
 }
 .instruction-box {
     color: green;
     background-color: rgb(226, 211, 192);
+    padding: 20px 5px 80px;
     margin-top: 10px;
-    padding-top: 20px;
-    padding-bottom: 80px;
 }
 .random-number {
     color: purple;
     font-size: 30px;
     background-color: rgb(78, 161, 78);
-    margin-top: 10px;
-    margin-left: 15px;
-    padding-right: 80px;
-    padding-bottom: 50px;
+    padding: 5px 80px 50px 5px;
+    margin: 10px 0px 0px 15px;
 }
 .wins-losses {
     color: green;
     background-color: lightblue;
-    margin-left: 10px;
+    padding: 10px 0px 0px 10px;
+    margin: 10px 0px 0px 10px;
+}
+.crystal {
+    height: 100px;
+    width: 100px;
+    border: solid transparent 5px;
     margin-top: 10px;
 }
 .score-statement {
     color: white;
     background-color: teal;
-    margin-top: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 20px;
+    padding: 5px 20px 5px 0px;
 }
 .my-score {
     color: white;
-    background-color: teal;
-    margin-top: 10px;
-    margin-bottom: 10px;
     font-size: 25px;
-    padding-bottom: 50px;
-}
-.crystal {
-    height: 100px;
-    width: 100px;
-    margin-top: 10px;
-    border: solid transparent 5px;
+    background-color: teal;
+    padding: 5px 0px 50px 5px;
+    margin: 10px 0px;
 }
