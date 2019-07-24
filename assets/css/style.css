@@ -11,7 +11,7 @@ body {
 }
 .instruction-box {
     color: green;
-    background-color: tan;
+    background-color: rgb(226, 211, 192);
     margin-top: 10px;
     padding-top: 20px;
     padding-bottom: 80px;
@@ -30,4 +30,26 @@ body {
     background-color: lightblue;
     margin-left: 10px;
     margin-top: 10px;
+}
+.score-statement {
+    color: white;
+    background-color: teal;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+.my-score {
+    color: white;
+    background-color: teal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+.crystal {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    border: solid transparent 5px;
 }
