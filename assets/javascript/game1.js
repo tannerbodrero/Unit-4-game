@@ -10,7 +10,7 @@ var userscore = 0;
 
 // A function to set the random value of the winning score.
 function createRandomScore() {
-    return winningscore = Math.floor(Math.random() * 101) + 19;   
+return winningscore = Math.floor(Math.random()*102) + 19;
 }
     
 // A function to set the random value of the 4 crystals.
@@ -29,10 +29,10 @@ function actualScores(){
    if (userscore === winningscore){
        wins = wins + 1;
     }
-    if (userscore > winningscore){
+   if (userscore > winningscore){
        losses = losses + 1;
     }
-    if (userscore === winningscore || userscore > winningscore){
+   if (userscore === winningscore || userscore > winningscore){
        userscore = userscore - userscore;
        winningscore = createRandomScore();
        crystals = createCrystalScore();
@@ -45,7 +45,7 @@ function actualScores(){
 
 // A function to take the value of the variables and turn them into text to be displayed.
 function updateScores(){
-    actualScores();
+   actualScores();
    $("#winning-score").text(winningscore);
    $("#user-score").text(userscore);
    $("#wins").text("Wins: " + wins);
@@ -60,7 +60,7 @@ function startGame(){
    purple = crystals[1]
    green = crystals[2]
    blue = crystals[3]
-
+   
    updateScores();
 }
 startGame();
